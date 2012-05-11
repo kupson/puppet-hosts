@@ -3,8 +3,8 @@ Facter.add('hosts_managed') do
         ret = 'false'
         if FileTest.exists?('/etc/hosts')
             File.open('/etc/hosts') do |file|
-                file.grep(/# managed by puppet class "hosts"$/) do |line|
-                    ret = 'true'
+                file.grep(/# managed by puppet class "hosts" \((.*)\)$/) do |line|
+                    ret = $1
                 end
             end
         end
