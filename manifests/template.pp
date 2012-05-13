@@ -19,7 +19,7 @@ class hosts::template {
             ensure => file,
             owner  => 'root',
             group  => 'root',
-            mode   => 0644;
+            mode   => '0644';
     }
 
     if $::hosts_managed != $hosts::params::tmpl_version {
