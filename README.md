@@ -6,7 +6,7 @@ resolver nearby.  It updates `/etc/hosts` file from template and add host
 entries grouped by environment to it.
 
 Warning: Host entries not managed by Puppet will be erased on install (and
-template version updete).
+template version update).
 
 ## Parameters
 
