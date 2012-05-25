@@ -10,7 +10,7 @@ template version update).
 
 ## Parameters
 
-- puppet_ip - Puppet host IP address (extlookup() variable)
+- puppet_ip - Puppet host IP address (extlookup() variable, optional)
 
 ## Usage
 

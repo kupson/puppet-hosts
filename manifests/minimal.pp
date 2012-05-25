@@ -4,7 +4,7 @@
 #   resources from environment.
 #
 # Parameters:
-#   [*puppet_ip*] - puppet IP address (extlookup)
+#   [*puppet_ip*] - puppet IP address (extlookup, optional)
 #
 # Actions:
 #
